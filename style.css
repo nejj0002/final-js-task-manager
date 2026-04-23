@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Inter', sans-serif; background: #fcfdfe; color: #1a1a1a; }
+
+.app-container { display: grid; grid-template-columns: 260px 1fr 320px; height: 100vh; }
+
+/* Left Sidebar */
+.left-sidebar { background: #fff; border-right: 1px solid #f0f0f0; padding: 24px; display: flex; flex-direction: column; }
+.brand { color: #3b5bdb; font-weight: 800; font-size: 20px; margin-bottom: 32px; }
+.profile-box { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+.avatar { width: 42px; height: 42px; background: #3b5bdb; color: #fff; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+.profile-info strong { display: block; font-size: 14px; }
+.profile-info span { font-size: 11px; color: #888; }
+
+.nav-item { display: block; padding: 12px 0; text-decoration: none; color: #666; font-size: 14px; }
+.nav-item.active { color: #3b5bdb; font-weight: 600; }
+.btn-focus { margin-top: auto; background: #4361ee; color: #fff; border: none; padding: 14px; border-radius: 25px; font-weight: 600; cursor: pointer; }
+
+/* Main Content */
+.main-content { padding: 0 40px; }
+.top-header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+.tabs { display: flex; gap: 24px; }
+.tab { text-decoration: none; color: #999; font-size: 13px; padding-bottom: 8px; }
+.tab.active { color: #1a1a1a; border-bottom: 2px solid #3b5bdb; font-weight: 600; }
+.header-actions { display: flex; align-items: center; gap: 20px; }
+.search-wrap input { background: #f1f3f5; border: none; padding: 8px 16px; border-radius: 20px; width: 220px; }
+
+.task-manager h1 { font-size: 42px; margin-bottom: 10px; }
+.description { color: #666; max-width: 450px; margin-bottom: 40px; line-height: 1.5; }
+
+.add-task-bar { display: flex; align-items: center; background: #fff; padding: 12px 20px; border-radius: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); margin-bottom: 32px; }
+.plus-icon { color: #4361ee; font-size: 20px; margin-right: 12px; }
+.add-task-bar input { border: none; flex: 1; outline: none; font-size: 15px; }
+.add-task-bar button { background: #4361ee; color: #fff; border: none; padding: 10px 30px; border-radius: 10px; font-weight: 600; cursor: pointer; }
+
+.task-item { background: #fff; padding: 24px; border-radius: 16px; display: flex; align-items: center; margin-bottom: 16px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+.border-highlight { border-left: 4px solid #4361ee; }
+.checkbox { width: 22px; height: 22px; border: 2px solid #e0e0e0; border-radius: 8px; margin-right: 16px; }
+.task-text { flex: 1; font-weight: 500; font-size: 16px; }
+.tag { font-size: 10px; font-weight: 700; padding: 4px 12px; border-radius: 10px; }
+.edu { background: #dbe4ff; color: #3b5bdb; }
+.prio { background: #fff4e6; color: #d9480f; }
+.comm { background: #edf2ff; color: #4361ee; }
+
+/* Right Sidebar */
+.right-widgets { padding: 40px 24px; display: flex; flex-direction: column; gap: 24px; }
+.widget { background: #fff; padding: 24px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
+.progress-widget h3 { font-size: 16px; margin: 0 0 4px 0; }
+.stats { font-size: 13px; color: #666; }
+.progress-track { background: #f1f3f5; height: 8px; border-radius: 4px; margin: 16px 0; }
+.progress-fill { background: #4361ee; width: 38%; height: 100%; border-radius: 4px; }
+.analytics-link { font-size: 12px; color: #4361ee; text-decoration: none; font-weight: 600; }
+
+.image-widget { height: 180px; background: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=400') center/cover; position: relative; color: #fff; }
+.image-overlay { position: absolute; bottom: 15px; left: 15px; }
+.image-overlay span { font-size: 10px; opacity: 0.8; font-weight: bold; }
+.image-overlay h4 { margin: 5px 0 0 0; font-size: 14px; }
+
+.tip-widget { background: #fff1eb; border: none; }
+.tip-widget h3 { font-size: 15px; margin: 10px 0; }
+.tip-widget p { font-size: 12px; color: #555; line-height: 1.6; }

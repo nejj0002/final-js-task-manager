@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="left-sidebar">
+            <div class="brand">Oasis Tasks</div>
+            <div class="profile-box">
+                <div class="avatar">C</div>
+                <div class="profile-info">
+                    <strong>Cognitive Oasis</strong>
+                    <span>Deep Work Mode</span>
+                </div>
+            </div>
+            <nav class="side-nav">
+                <a href="#" class="nav-item active">Today</a>
+                <a href="#" class="nav-item">Upcoming</a>
+                <a href="#" class="nav-item">Projects</a>
+                <a href="#" class="nav-item">Archive</a>
+                <a href="#" class="nav-item">Team</a>
+            </nav>
+            <button class="btn-focus">New Focus Session</button>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header">
+                <div class="tabs">
+                    <a href="#" class="tab active">Tasks</a>
+                    <a href="#" class="tab">Performance</a>
+                    <a href="#" class="tab">Collaborators</a>
+                </div>
+                <div class="header-actions">
+                    <div class="search-wrap">
+                        <input type="text" placeholder="Search focus sessions...">
+                    </div>
+                    <div class="icons">🔔 ⚙️ 👤</div>
+                </div>
+            </header>
+
+            <section class="task-manager">
+                <h1>Task Manager</h1>
+                <p class="description">Design your cognitive flow. Prioritize deep work and eliminate distraction.</p>
+
+                <div class="add-task-bar">
+                    <span class="plus-icon">+</span>
+                    <input type="text" id="taskInput" placeholder="Add a new task...">
+                    <button id="addBtn">Add</button>
+                </div>
+
+                <div id="taskList">
+                    <div class="task-item">
+                        <div class="checkbox"></div>
+                        <span class="task-text">grade assignment</span>
+                        <span class="tag edu">EDUCATION</span>
+                    </div>
+                    <div class="task-item">
+                        <div class="checkbox"></div>
+                        <span class="task-text">final video review</span>
+                        <span class="tag prio">PRIORITY</span>
+                    </div>
+                    <div class="task-item border-highlight">
+                        <div class="checkbox"></div>
+                        <span class="task-text">email client update</span>
+                        <span class="tag comm">COMMUNICATION</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="right-widgets">
+            <div class="widget progress-widget">
+                <h3>Today's Progress</h3>
+                <span class="stats">3 of 8 tasks completed</span>
+                <div class="progress-track">
+                    <div class="progress-fill"></div>
+                </div>
+                <a href="#" class="analytics-link">View Daily Analytics →</a>
+            </div>
+
+            <div class="widget image-widget">
+                <div class="image-overlay">
+                    <span>WORKSPACE INSIGHT</span>
+                    <h4>Clutter-free desk, clutter-free mind.</h4>
+                </div>
+            </div>
+
+            <div class="widget tip-widget">
+                <span class="bulb">💡</span>
+                <h3>Productivity Hack</h3>
+                <p>Try the Pomodoro technique for the "final video review" task. Deep focus periods followed by short rests maximize cognitive output.</p>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
