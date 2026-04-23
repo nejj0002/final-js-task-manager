@@ -1,7 +1,31 @@
-# Oasis Tasks UI
-Precision reconstruction of the Oasis Tasks dashboard.
+# Oasis Tasks - Deep Work Manager
 
-## Key Features
-- Triple-column layout.
-- Styled tags (Education, Priority).
-- Visual progress trackers.
+A functional task management dashboard built with Vanilla JavaScript, HTML, and CSS. This project focuses on high-contrast UI design and real-time DOM manipulation to enhance cognitive flow and productivity.
+
+## 🚀 Key Features
+* **Dynamic Task Management**: Add new tasks to the workflow instantly.
+* **Interactive UI**: Toggle task completion status by clicking on task cards, providing immediate visual feedback.
+* **Live Progress Tracking**: A real-time progress bar and counter that calculates completion percentage based on your active tasks.
+* **Responsive Layout**: A triple-column dashboard designed for deep work environments.
+
+## 🛠️ Technical Implementation
+* **DOM Manipulation**: Utilizes `document.createElement` and `appendChild` to manage task lifecycles without page reloads.
+* **Event Delegation**: Implements a single event listener on the parent task list to handle clicks on dynamically created items efficiently.
+* **CSS Transitions**: Smooth animations for the progress bar and task card interactions to improve user experience.
+
+## 📁 Project Structure
+* `index.html`: Main application structure.
+* `style.css`: Rugged, industrial-inspired UI styling.
+* `script.js`: Core logic for task handling and progress calculations.
+* `/prototypes`: Contains Lo-Fi wireframes and Hi-Fi designs used during the planning phase.
+
+## 📖 How to Run
+1.  Clone this repository to your local machine:
+    ```bash
+    git clone [https://github.com/nejj0002/final-js-task-manager.git](https://github.com/nejj0002/final-js-task-manager.git)
+    ```
+2.  Open `index.html` in any modern web browser.
+3.  Alternatively, use the **Live Server** extension in VS Code to view real-time changes.
+
+## 🎓 Academic Context
+This project was developed as a Final Project for the Interactive Media & Design program. It demonstrates core competencies in Vanilla JavaScript, DOM manipulation, and UX/UI design principles.
