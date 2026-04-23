@@ -1,31 +1,31 @@
 # Oasis Tasks - Deep Work Manager
 
-A functional task management dashboard built with Vanilla JavaScript, HTML, and CSS. This project focuses on high-contrast UI design and real-time DOM manipulation to enhance cognitive flow and productivity.
+A functional, high-performance task management dashboard built with Vanilla JavaScript, HTML, and CSS. This project focuses on industrial aesthetic design and real-time DOM manipulation to help users eliminate distractions and maintain deep focus.
 
 ## 🚀 Key Features
-* **Dynamic Task Management**: Add new tasks to the workflow instantly.
-* **Interactive UI**: Toggle task completion status by clicking on task cards, providing immediate visual feedback.
-* **Live Progress Tracking**: A real-time progress bar and counter that calculates completion percentage based on your active tasks.
-* **Responsive Layout**: A triple-column dashboard designed for deep work environments.
+* **Dynamic Task Management**: Add new tasks to your cognitive flow instantly through the interface.
+* **Interactive Task Completion**: Toggle tasks as "completed" with a single click, providing immediate visual feedback.
+* **Live Progress Tracking**: A real-time progress bar that dynamically calculates your daily performance based on task completion.
+* **Rugged & Professional UI**: A clean, triple-column layout inspired by modern productivity workflows.
 
-## 🛠️ Technical Implementation
-* **DOM Manipulation**: Utilizes `document.createElement` and `appendChild` to manage task lifecycles without page reloads.
-* **Event Delegation**: Implements a single event listener on the parent task list to handle clicks on dynamically created items efficiently.
-* **CSS Transitions**: Smooth animations for the progress bar and task card interactions to improve user experience.
+## 🛠️ Technical Concepts
+* **DOM Manipulation**: Implements `document.createElement` and `appendChild` to update the task list without refreshing the page.
+* **Event Delegation**: Uses a single event listener on the parent container to handle clicks on dynamically generated tasks efficiently.
+* **State Management**: Updates multiple UI components (counters and progress bars) simultaneously whenever the application state changes.
 
 ## 📁 Project Structure
-* `index.html`: Main application structure.
-* `style.css`: Rugged, industrial-inspired UI styling.
-* `script.js`: Core logic for task handling and progress calculations.
-* `/prototypes`: Contains Lo-Fi wireframes and Hi-Fi designs used during the planning phase.
+* `index.html`: The structural foundation of the dashboard.
+* `style.css`: The styling logic for the rugged and industrial aesthetic.
+* `script.js`: The functional "brain" of the app, handling all user interactions.
+* `/prototypes`: Includes the Lo-Fi wireframes and Hi-Fi designs that guided development.
 
 ## 📖 How to Run
-1.  Clone this repository to your local machine:
+1.  Clone the repository to your local machine:
     ```bash
     git clone [https://github.com/nejj0002/final-js-task-manager.git](https://github.com/nejj0002/final-js-task-manager.git)
     ```
 2.  Open `index.html` in any modern web browser.
-3.  Alternatively, use the **Live Server** extension in VS Code to view real-time changes.
+3.  (Recommended) Use the **VS Code Live Server** extension for real-time development previews.
 
 ## 🎓 Academic Context
-This project was developed as a Final Project for the Interactive Media & Design program. It demonstrates core competencies in Vanilla JavaScript, DOM manipulation, and UX/UI design principles.
+This project was developed for the Final Project of the Interactive Media program. It demonstrates advanced proficiency in Vanilla JavaScript, responsive CSS layouts, and user-centric design.
